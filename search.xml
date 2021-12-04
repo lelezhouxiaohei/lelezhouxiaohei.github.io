@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>My first blog</title>
+    <url>/2021/12/03/2021-12-03-My-first-blog/</url>
+    <content><![CDATA[<h2 id="摘要："><a href="#摘要：" class="headerlink" title="摘要："></a>摘要：</h2><p>​    这是我的第一篇博客，创建博客想要培养自己的计算机兴趣，想记录一些学习经历和学习心得，以及一些职业规划。</p>
+<h2 id="关于搭建博客："><a href="#关于搭建博客：" class="headerlink" title="关于搭建博客："></a>关于搭建博客：</h2><p>​    我利用了GitHub和hexo，作为一个刚开始培养计算机思维的大学生，想搭建一个博客真的还是挺难受的，用云服务器太贵了，用GitHub太麻烦了，但是，兴趣是最好的老师，也感谢b站，一步一步走搞了几个小时（走了一些弯路）终于完成了。之后还有美化博客的问题，我尽量学习！！</p>
+<p>​    以下是我成功搭建的参考视频：</p>
+<p>​    <a href="https://www.bilibili.com/video/BV1mU4y1j72n?from=search&seid=7410781831365389063&spm_id_from=333.337.0.0">GitHub与hexo个人博客搭建</a></p>
+<h2 id="一些展望："><a href="#一些展望：" class="headerlink" title="一些展望："></a>一些展望：</h2><p>​    希望在大学能够多学习技术，多参加竞赛和实习，本科毕业后去大厂镀镀金，之后回四川“养老”，有机会的话程序员退休后考个公务员之类的。</p>
+<p>​    希望之后大学生活遇到挫折，看到这个博客能够感到激励！！</p>
+]]></content>
+      <tags>
+        <tag>First trying!</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Dev-sidercar</title>
     <url>/2021/12/04/Dev-sidercar/</url>
     <content><![CDATA[<h1 id="加速访问GitHub的插件——dev-sidercar"><a href="#加速访问GitHub的插件——dev-sidercar" class="headerlink" title="加速访问GitHub的插件——dev-sidercar"></a>加速访问GitHub的插件——dev-sidercar</h1><ol>
@@ -19,20 +33,6 @@
 <h6 id="插件作者：Greper-gitee"><a href="#插件作者：Greper-gitee" class="headerlink" title="插件作者：Greper_gitee"></a>插件作者：<a href="https://gitee.com/greper">Greper_gitee</a></h6>]]></content>
       <tags>
         <tag>plug-in</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>My first blog</title>
-    <url>/2021/12/03/2021-12-03-My-first-blog/</url>
-    <content><![CDATA[<h2 id="摘要："><a href="#摘要：" class="headerlink" title="摘要："></a>摘要：</h2><p>​    这是我的第一篇博客，创建博客想要培养自己的计算机兴趣，想记录一些学习经历和学习心得，以及一些职业规划。</p>
-<h2 id="关于搭建博客："><a href="#关于搭建博客：" class="headerlink" title="关于搭建博客："></a>关于搭建博客：</h2><p>​    我利用了GitHub和hexo，作为一个刚开始培养计算机思维的大学生，想搭建一个博客真的还是挺难受的，用云服务器太贵了，用GitHub太麻烦了，但是，兴趣是最好的老师，也感谢b站，一步一步走搞了几个小时（走了一些弯路）终于完成了。之后还有美化博客的问题，我尽量学习！！</p>
-<p>​    以下是我成功搭建的参考视频：</p>
-<p>​    <a href="https://www.bilibili.com/video/BV1mU4y1j72n?from=search&seid=7410781831365389063&spm_id_from=333.337.0.0">GitHub与hexo个人博客搭建</a></p>
-<h2 id="一些展望："><a href="#一些展望：" class="headerlink" title="一些展望："></a>一些展望：</h2><p>​    希望在大学能够多学习技术，多参加竞赛和实习，本科毕业后去大厂镀镀金，之后回四川“养老”，有机会的话程序员退休后考个公务员之类的。</p>
-<p>​    希望之后大学生活遇到挫折，看到这个博客能够感到激励！！</p>
-]]></content>
-      <tags>
-        <tag>First trying!</tag>
       </tags>
   </entry>
   <entry>
