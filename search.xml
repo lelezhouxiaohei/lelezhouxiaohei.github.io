@@ -80,7 +80,9 @@
 <figure class="highlight ps"><table><tr><td class="code"><pre><span class="line">仓库的要求：</span><br><span class="line">仓库名为你的 注册名+.git.io(例如我的叫lelecarson.github.io)</span><br><span class="line">勾选pubulic和add a readme file（不让你的仓库是空的）</span><br><span class="line">(<span class="number">1</span>). 进入你的GitHub界面,在靠左侧有创建repository的字样（绿的）</span><br><span class="line">(<span class="number">2</span>). 按要求搭建一个仓库</span><br></pre></td></tr></table></figure>
 
 <p>​     <strong>搭建仓库</strong></p>
-<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="/2021/12/04/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/bbblog!!!!\source_posts\搭建个人博客\repo.png"></div></div></div>
+<img src="/2021/12/04/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/repo.png" class>
+
+
 
 <ol start="4">
 <li>生成ssh keys（好奇是啥的可以百度去查）：</li>
