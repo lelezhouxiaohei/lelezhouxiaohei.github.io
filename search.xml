@@ -50,9 +50,11 @@
 </ol>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">注意每个下载都要装进D（或D以后）的盘不占C盘内存才好！（最好新建文件夹方便管理）</span><br><span class="line">除了安装盘，直接默认就ok</span><br></pre></td></tr></table></figure>
 
+<span id="more"></span>
 
-
-<h4 id="如果遇到什么问题可以看看博客最下面，说不定有解决办法，"><a href="#如果遇到什么问题可以看看博客最下面，说不定有解决办法，" class="headerlink" title="如果遇到什么问题可以看看博客最下面，说不定有解决办法，"></a>如果遇到什么问题可以看看博客最下面，说不定有解决办法，</h4><h4 id="如果没有，百度是个不错的选择-v"><a href="#如果没有，百度是个不错的选择-v" class="headerlink" title="如果没有，百度是个不错的选择 ^ v ^"></a>如果没有，百度是个不错的选择 ^ v ^</h4><h2 id="搭建："><a href="#搭建：" class="headerlink" title="搭建："></a>搭建：</h2><p>准备好git，GitHub和Node.js后</p>
+<p><strong>如果遇到什么问题可以看看博客最下面，说不定有解决办法，</strong></p>
+<p><strong>如果没有，百度是个不错的选择 ^ v ^</strong></p>
+<h2 id="搭建："><a href="#搭建：" class="headerlink" title="搭建："></a>搭建：</h2><p>准备好git，GitHub和Node.js后</p>
 <ol>
 <li>配置你的Node.js:</li>
 </ol>
