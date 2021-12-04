@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>My first blog</title>
+    <url>/2021/12/03/2021-12-03-My-first-blog/</url>
+    <content><![CDATA[<h2 id="摘要："><a href="#摘要：" class="headerlink" title="摘要："></a>摘要：</h2><p>​    这是我的第一篇博客，创建博客想要培养自己的计算机兴趣，想记录一些学习经历和学习心得，以及一些职业规划。</p>
+<h2 id="关于搭建博客："><a href="#关于搭建博客：" class="headerlink" title="关于搭建博客："></a>关于搭建博客：</h2><p>​    我利用了GitHub和hexo，作为一个刚开始培养计算机思维的大学生，想搭建一个博客真的还是挺难受的，用云服务器太贵了，用GitHub太麻烦了，但是，兴趣是最好的老师，也感谢b站，一步一步走搞了几个小时（走了一些弯路）终于完成了。之后还有美化博客的问题，我尽量学习！！</p>
+<p>​    以下是我成功搭建的参考视频：</p>
+<p>​    <a href="https://www.bilibili.com/video/BV1mU4y1j72n?from=search&seid=7410781831365389063&spm_id_from=333.337.0.0">GitHub与hexo个人博客搭建</a></p>
+<h2 id="一些展望："><a href="#一些展望：" class="headerlink" title="一些展望："></a>一些展望：</h2><p>​    希望在大学能够多学习技术，多参加竞赛和实习，本科毕业后去大厂镀镀金，之后回四川“养老”，有机会的话程序员退休后考个公务员之类的。</p>
+<p>​    希望之后大学生活遇到挫折，看到这个博客能够感到激励！！</p>
+]]></content>
+      <tags>
+        <tag>First trying!</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>搭建个人博客</title>
-    <url>/2021/12/03/2021-12-03-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</url>
+    <url>/2021/12/04/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</url>
     <content><![CDATA[<h1 id="利用GitHub和hexo搭建个人博客："><a href="#利用GitHub和hexo搭建个人博客：" class="headerlink" title="利用GitHub和hexo搭建个人博客："></a>利用GitHub和hexo搭建个人博客：</h1><h2 id="所需工具："><a href="#所需工具：" class="headerlink" title="所需工具："></a>所需工具：</h2><ol>
 <li> git软件 和 GitHub账号（具体是什么东西有兴趣的可以去百度了解，建议学计算机的都去了解了解）</li>
 </ol>
@@ -41,23 +55,49 @@
 <figure class="highlight ps"><table><tr><td class="code"><pre><span class="line">仓库的要求：</span><br><span class="line">仓库名为你的 注册名+.git.io(例如我的叫lelecarson.github.io)</span><br><span class="line">勾选pubulic和add a readme file（不让你的仓库是空的）</span><br><span class="line">(<span class="number">1</span>). 进入你的GitHub界面,在靠左侧有创建repository的字样（绿的）</span><br><span class="line">(<span class="number">2</span>). 按要求搭建一个仓库</span><br></pre></td></tr></table></figure>
 
 <p>​     <strong>搭建仓库</strong></p>
-<p></p>]]></content>
+<p><img src="/2021/12/04/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/Users\86180\AppData\Roaming\Typora\typora-user-images\image-20211203192955542.png"></p>
+<ol start="4">
+<li>生成ssh keys（好奇是啥的可以百度去查）：</li>
+</ol>
+<figure class="highlight ps"><table><tr><td class="code"><pre><span class="line">(<span class="number">1</span>). 在c盘外的盘中创建一个文件夹：叫一个你能记住的名字，比如我的叫bbblog</span><br><span class="line">(<span class="number">2</span>). 在该文件夹空白处右击点开git bash here（win11的右击选更多选项）</span><br><span class="line">	 得到一个git命令框</span><br><span class="line">(<span class="number">3</span>). 输入ssh 检查是否安装ssh（安装node的过程就安装了的）</span><br><span class="line">(<span class="number">4</span>). 输入ssh<span class="literal">-keygen</span> <span class="literal">-t</span> rsa <span class="literal">-C</span> <span class="string">&quot;注册GitHub时留的邮件地址&quot;</span></span><br><span class="line">	 例如我的就是ssh<span class="literal">-keygen</span> <span class="literal">-t</span> rsa <span class="literal">-C</span> <span class="string">&quot;zhou0908jie@outlook.com&quot;</span></span><br><span class="line">	 敲<span class="number">4</span>次回车</span><br><span class="line">(<span class="number">5</span>). 打开c盘，找到users（或者用户）找到ssh文件夹，打开id_rsa.pub(用notepad就能打开)</span><br><span class="line">	 复制其中的内容</span><br><span class="line">(<span class="number">6</span>). 打开GitHub，点击右上角的小三角形，点击settings，在左边的一栏子东西中点击</span><br><span class="line">	 SSH and GPG keys</span><br><span class="line">(<span class="number">7</span>). 点击New SSH keys（绿的那个），输入title（随便输啥），将(<span class="number">5</span>)中的复制粘贴到<span class="string">&quot;key&quot;</span>中</span><br><span class="line">	 然后点确定，底下绿色那个</span><br><span class="line">(<span class="number">8</span>). 打开git命令行，右键点past粘贴(<span class="number">5</span>)中的复制，敲<span class="number">1</span>次回车，输入yes</span><br></pre></td></tr></table></figure>
+
+<p><strong>PS. 在git命令框中复制不为ctrl+c（Linux系统），老老实实右键！</strong></p>
+<p><strong>打命令的时候要用英文输入法，空格不能省，注意引号冒号等！！！</strong></p>
+<p><img src="/2021/12/04/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/Users\86180\Desktop}]APMCJRB1P8N@XT9T2X_1Q.png" alt="git_bash_here"></p>
+<p>​         <strong>第(6)，(7)步图示</strong></p>
+<p><img src="/2021/12/04/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/Users\86180\AppData\Roaming\Typora\typora-user-images\image-20211203193559207.png" alt="SSH keys"></p>
+<ol start="5">
+<li>本地生成博客内容</li>
+</ol>
+<figure class="highlight ps"><table><tr><td class="code"><pre><span class="line">(<span class="number">1</span>). 在<span class="number">4</span>(<span class="number">1</span>)中新建的文件夹空白处右键打开git命令行</span><br><span class="line">(<span class="number">2</span>). 输入：</span><br><span class="line">	 hexo init 初始化，成功后会在该文件夹中生成一堆文件</span><br><span class="line">	 hexo s 运行本地hexo，成功后会呈现一个网址</span><br><span class="line">(<span class="number">3</span>). 复制网址到浏览器即可打开属于你的一个博客</span><br><span class="line">(<span class="number">4</span>). ctrl+c 关闭服务器，网站就打不开了，再用hexo s打开即可</span><br><span class="line">	 打开时，你敲任何命令都无效</span><br></pre></td></tr></table></figure>
+
+<p>​       <strong>hexo s</strong></p>
+<p><img src="/2021/12/04/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/Users\86180\AppData\Roaming\Typora\typora-user-images\image-20211203194433905.png" alt="hexo s"></p>
+<ol start="6">
+<li>发布你的博客到互联网（让别人能浏览你的博客）</li>
+</ol>
+<figure class="highlight ps"><table><tr><td class="code"><pre><span class="line">(<span class="number">1</span>). 在<span class="number">4</span>(<span class="number">1</span>)中创建的文件夹中找到文件.config.yml</span><br><span class="line">	（打开拓展名才看得到.yml）右键打开</span><br><span class="line">	滑到最底下，将对应内容改为如下并ctrl+s保存：</span><br><span class="line">	deploy:</span><br><span class="line">	  <span class="built_in">type</span>: git</span><br><span class="line">	  repo: 这里填你的GitHub仓库地址，</span><br><span class="line">  			在GitHub仓库界面中点code会弹出相应地址（如图）</span><br><span class="line">  	  branch: main</span><br><span class="line">  	<span class="built_in">PS</span>!:冒号后面有空格，不可以省的！</span><br><span class="line">(<span class="number">2</span>). 进入git命令行输入：</span><br><span class="line">	npm install hexo<span class="literal">-deployer</span><span class="literal">-git</span> -<span class="literal">-save</span> 生成文件用的</span><br><span class="line">	hexo g 生成界面用的</span><br><span class="line">	hexo d 这个命令很容易失败！！！</span><br><span class="line">	（GitHub是国外的网站，连接很不稳定！等你能顺利进入GitHub的时候再执行一次）</span><br><span class="line">(<span class="number">3</span>). 命令执行成功的话会弹出一个弹窗</span><br><span class="line">	 让你输入你的用户名，密码（这里的密码是你令牌中的密码！！！！）之类的，</span><br><span class="line">	 用户名是你注册GitHub的用户名，邮箱是你注册GitHub的邮箱，密码是令牌中的密码</span><br><span class="line">(<span class="number">4</span>). 令牌密码在哪里：（有图）</span><br><span class="line">   	进入GitHub的settings界面，下滑找到左侧Developer settings，</span><br><span class="line">   	进入后点击左侧Personal access tokens，</span><br><span class="line">   	名字随便取，有效期限看你，权限全勾上没问题，</span><br><span class="line">   	完成后得到一串密码，复制粘贴即可，</span><br><span class="line">   	记住要保存你的令牌密码到记事本或者截图，因为之后不会再生成</span><br><span class="line">(<span class="number">5</span>). 发现GitHub仓库中文件不只有readme后就成功了</span><br><span class="line">	（你和他人可以不用hexo s就访问你的博客）</span><br><span class="line">	 同时你的博客有了自己的网址：</span><br><span class="line">	 	(你的GitHub用户名).github.io</span><br></pre></td></tr></table></figure>
+
+<p>​    <strong>6(1)中的repository</strong></p>
+<p><img src="/2021/12/04/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/Users\86180\AppData\Roaming\Typora\typora-user-images\image-20211203195856363.png" alt="repository"></p>
+<p>​       <strong>personal access tokens</strong><img src="/2021/12/04/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/Users\86180\AppData\Roaming\Typora\typora-user-images\image-20211203201244031.png" alt="personal access tokens"></p>
+<p>​    <strong>弹窗</strong></p>
+<p><img src="/2021/12/04/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/Users\86180\AppData\Roaming\Typora\typora-user-images\image-20211203201526557.png" alt="弹窗"></p>
+<p>​    <strong>令牌密码</strong></p>
+<p><img src="/2021/12/04/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/Users\86180\AppData\Roaming\Typora\typora-user-images\image-20211203201619416.png" alt="token keys"></p>
+<h2 id="可能遇到的问题"><a href="#可能遇到的问题" class="headerlink" title="可能遇到的问题:"></a>可能遇到的问题:</h2><h4 id="1-打开博客会出现空白页的情况："><a href="#1-打开博客会出现空白页的情况：" class="headerlink" title="1. 打开博客会出现空白页的情况："></a>1. 打开博客会出现空白页的情况：</h4><p>解决方法：</p>
+<ol>
+<li><p>hexo 在浏览器中会缓存，改动过多就会出现问题，在git命令行中输入hexo cl清除缓存即可</p>
+</li>
+<li><p>代码输入错误，在git命令行中输入hexo g -d看看输出中有没有error，根据error进行修改</p>
+</li>
+<li><p>……</p>
+<p>n. 下下策，删除blog文件夹中的信息，重新hexo init建立博客，到搭建的第5步</p>
+</li>
+</ol>
+<h1 id="未完待续…"><a href="#未完待续…" class="headerlink" title="未完待续…"></a>未完待续…</h1>]]></content>
       <tags>
-        <tag>博客搭建</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>My first blog</title>
-    <url>/2021/12/03/2021-12-03-My-first-blog/</url>
-    <content><![CDATA[<h2 id="摘要："><a href="#摘要：" class="headerlink" title="摘要："></a>摘要：</h2><p>​    这是我的第一篇博客，创建博客想要培养自己的计算机兴趣，想记录一些学习经历和学习心得，以及一些职业规划。</p>
-<h2 id="关于搭建博客："><a href="#关于搭建博客：" class="headerlink" title="关于搭建博客："></a>关于搭建博客：</h2><p>​    我利用了GitHub和hexo，作为一个刚开始培养计算机思维的大学生，想搭建一个博客真的还是挺难受的，用云服务器太贵了，用GitHub太麻烦了，但是，兴趣是最好的老师，也感谢b站，一步一步走搞了几个小时（走了一些弯路）终于完成了。之后还有美化博客的问题，我尽量学习！！</p>
-<p>​    以下是我成功搭建的参考视频：</p>
-<p>​    <a href="https://www.bilibili.com/video/BV1mU4y1j72n?from=search&seid=7410781831365389063&spm_id_from=333.337.0.0">GitHub与hexo个人博客搭建</a></p>
-<h2 id="一些展望："><a href="#一些展望：" class="headerlink" title="一些展望："></a>一些展望：</h2><p>​    希望在大学能够多学习技术，多参加竞赛和实习，本科毕业后去大厂镀镀金，之后回四川“养老”，有机会的话程序员退休后考个公务员之类的。</p>
-<p>​    希望之后大学生活遇到挫折，看到这个博客能够感到激励！！</p>
-]]></content>
-      <tags>
-        <tag>First trying!</tag>
+        <tag>个人博客</tag>
       </tags>
   </entry>
 </search>
