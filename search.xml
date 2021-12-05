@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>My first blog</title>
+    <url>/2021/12/03/2021-12-03-My-first-blog/</url>
+    <content><![CDATA[<h2 id="摘要："><a href="#摘要：" class="headerlink" title="摘要："></a>摘要：</h2><p>​    这是我的第一篇博客，创建博客想要培养自己的计算机兴趣，想记录一些学习经历和学习心得，以及一些职业规划。</p>
+<h2 id="关于搭建博客："><a href="#关于搭建博客：" class="headerlink" title="关于搭建博客："></a>关于搭建博客：</h2><p>​    我利用了GitHub和hexo，作为一个刚开始培养计算机思维的大学生，想搭建一个博客真的还是挺难受的，用云服务器太贵了，用GitHub太麻烦了，但是，兴趣是最好的老师，也感谢b站，一步一步走搞了几个小时（走了一些弯路）终于完成了。之后还有美化博客的问题，我尽量学习！！</p>
+<p>​    以下是我成功搭建的参考视频：</p>
+<p>​    <a href="https://www.bilibili.com/video/BV1mU4y1j72n?from=search&seid=7410781831365389063&spm_id_from=333.337.0.0">GitHub与hexo个人博客搭建</a></p>
+<span id="more"></span>
+
+<h2 id="一些展望："><a href="#一些展望：" class="headerlink" title="一些展望："></a>一些展望：</h2><p>​    希望在大学能够多学习技术，多参加竞赛和实习，本科毕业后去大厂镀镀金，之后回四川“养老”，有机会的话程序员退休后考个公务员之类的。</p>
+<p>​    希望之后大学生活遇到挫折，看到这个博客能够感到激励！！</p>
+]]></content>
+      <tags>
+        <tag>First trying!</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Dev-sidercar</title>
     <url>/2021/12/04/Dev-sidercar/</url>
     <content><![CDATA[<h1 id="加速访问GitHub的插件——dev-sidercar"><a href="#加速访问GitHub的插件——dev-sidercar" class="headerlink" title="加速访问GitHub的插件——dev-sidercar"></a>加速访问GitHub的插件——dev-sidercar</h1><ol>
@@ -24,19 +40,80 @@
       </tags>
   </entry>
   <entry>
-    <title>My first blog</title>
-    <url>/2021/12/03/2021-12-03-My-first-blog/</url>
-    <content><![CDATA[<h2 id="摘要："><a href="#摘要：" class="headerlink" title="摘要："></a>摘要：</h2><p>​    这是我的第一篇博客，创建博客想要培养自己的计算机兴趣，想记录一些学习经历和学习心得，以及一些职业规划。</p>
-<h2 id="关于搭建博客："><a href="#关于搭建博客：" class="headerlink" title="关于搭建博客："></a>关于搭建博客：</h2><p>​    我利用了GitHub和hexo，作为一个刚开始培养计算机思维的大学生，想搭建一个博客真的还是挺难受的，用云服务器太贵了，用GitHub太麻烦了，但是，兴趣是最好的老师，也感谢b站，一步一步走搞了几个小时（走了一些弯路）终于完成了。之后还有美化博客的问题，我尽量学习！！</p>
-<p>​    以下是我成功搭建的参考视频：</p>
-<p>​    <a href="https://www.bilibili.com/video/BV1mU4y1j72n?from=search&seid=7410781831365389063&spm_id_from=333.337.0.0">GitHub与hexo个人博客搭建</a></p>
+    <title>写自己的博客</title>
+    <url>/2021/12/05/%E5%86%99%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<h1 id="写自己的博客文章"><a href="#写自己的博客文章" class="headerlink" title="写自己的博客文章"></a>写自己的博客文章</h1><h2 id="摘要："><a href="#摘要：" class="headerlink" title="摘要："></a>摘要：</h2><h3 id="1-创建一篇博客文章"><a href="#1-创建一篇博客文章" class="headerlink" title="1. 创建一篇博客文章"></a>1. 创建一篇博客文章</h3><h3 id="2-写一篇markdown文档"><a href="#2-写一篇markdown文档" class="headerlink" title="2. 写一篇markdown文档"></a>2. 写一篇markdown文档</h3><h3 id="3-存档"><a href="#3-存档" class="headerlink" title="3. 存档"></a>3. 存档</h3><h3 id="4-可能遇到的问题（要看哦！！）"><a href="#4-可能遇到的问题（要看哦！！）" class="headerlink" title="4. 可能遇到的问题（要看哦！！）"></a>4. 可能遇到的问题（要看哦！！）</h3><p><strong>如果遇到问题了，可以滑到文章最下面哦</strong></p>
+<p><strong>如果没有解决，百度是个不错的选择呢 ^ v ^ !</strong></p>
 <span id="more"></span>
 
-<h2 id="一些展望："><a href="#一些展望：" class="headerlink" title="一些展望："></a>一些展望：</h2><p>​    希望在大学能够多学习技术，多参加竞赛和实习，本科毕业后去大厂镀镀金，之后回四川“养老”，有机会的话程序员退休后考个公务员之类的。</p>
-<p>​    希望之后大学生活遇到挫折，看到这个博客能够感到激励！！</p>
-]]></content>
+<h2 id="1-创建一篇博客文章-1"><a href="#1-创建一篇博客文章-1" class="headerlink" title="1. 创建一篇博客文章"></a>1. 创建一篇博客文章</h2><p>​        利用hexo写博客的时候，首先要创建一篇博客，提供写文章的位置，没错你不能直接在你的hexo里面写（除非安装了一些第三方插件）</p>
+<p>​        在你的blog文件夹中打开你的git命令行，输入hexo new post “引号里写你的文章标题”</p>
+<p>这样在你的blog/source/_posts中就能看到一个写有你文章标题的md（即markdown）文件</p>
+<p>git与GitHub都只支持md文件不支持txt文件等</p>
+<img src="/2021/12/05/%E5%86%99%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/md.png" class>
+
+
+
+<h2 id="2-写一篇Markdown文章"><a href="#2-写一篇Markdown文章" class="headerlink" title="2. 写一篇Markdown文章"></a>2. 写一篇Markdown文章</h2><ol>
+<li><p>什么是markdown文件？</p>
+<p>markdown是一种轻量级的标记语言，用于在纯文本中添加格式化元素</p>
+<p><strong>就是，用markdown你可以利用一些简单的语法来使你的文章有序美观</strong></p>
+</li>
+<li><p>常用的markdown编译器</p>
+<p>参考文章：<a href="https://blog.csdn.net/davidhzq/article/details/100815332">主流markdown编译器</a></p>
+<p>我个人正在用的是Typora，干净简介，极简风格真的很nice，而且支持三大系统</p>
+<p>但是听说最新版本的要收费了，还不便宜，所以推荐下载旧版的，别去更新</p>
+<p>（另外，Typora槽点好像很多，谨慎选择）</p>
+</li>
+<li><p>markdown语法</p>
+<p>markdown的基础语法很简单，10分钟不到就能基本使用</p>
+<p>参考文章：<a href="https://blog.csdn.net/smilehappiness/article/details/105067651?ops_request_misc=&request_id=&biz_id=102&utm_term=markdown%E8%AF%AD%E6%B3%95&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-3-105067651.pc_search_all_es&spm=1018.2226.3001.4187">Markdown基础语法</a>（学这个够用）</p>
+<p>​                   <a href="https://blog.csdn.net/witnessai1/article/details/52551362?ops_request_misc=%7B%22request_id%22:%22163869330116780269890699%22,%22scm%22:%2220140713.130102334..%22%7D&request_id=163869330116780269890699&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-1-52551362.pc_search_all_es&utm_term=markdown%E8%AF%AD%E6%B3%95&spm=1018.2226.3001.4187">Markdown语法大全 </a>（有闲心可以了解）</p>
+</li>
+<li><p>做完这些后点开你的md文档，开始大放光彩吧！！写完记得保存哦！！</p>
+</li>
+</ol>
+<h2 id="3-存档-1"><a href="#3-存档-1" class="headerlink" title="3. 存档"></a>3. 存档</h2><p>​        每次修改完你的blog文件夹后（不论是新加了文档还是改动了什么代码）都要在blog文件夹目录中打开git命令行进行存档</p>
+<p>​        要用到命令：</p>
+<ol>
+<li><p>hexo g （是 hexo generate的缩写）</p>
+<p>生成网站静态文件，手动部署网站</p>
+<ol start="2">
+<li>hexo d （是hexo deploy的缩写）</li>
+</ol>
+<p>自动生成网站静态文件，并部署到仓库</p>
+<ol start="3">
+<li>hexo cl （是hexo clean的缩写）</li>
+</ol>
+<p>清楚缓存文件db.json和医生称的静态文件public</p>
+<p>网站显示异常的时候（网页白屏等）可以试试它</p>
+<p><strong>每次按顺序使用如上命令即可完成存档</strong></p>
+<p><strong>PS. hexo g和hexo d可以合并成hexo g -d，也很好用哦</strong></p>
+</li>
+</ol>
+<h2 id="4-可能遇到的问题"><a href="#4-可能遇到的问题" class="headerlink" title="4. 可能遇到的问题"></a>4. 可能遇到的问题</h2><h3 id="1-图像显示问题"><a href="#1-图像显示问题" class="headerlink" title="1. 图像显示问题"></a>1. 图像显示问题</h3><p>初次使用hexo可能会遇到插入的图片部署后不能在网页显示的问题，</p>
+<p>以下是可行的解决方案</p>
+<p>（版本： Hexo 3以上）</p>
+<ol>
+<li><p>在blog文件夹目录下的配置文件_config.yml（记事本打开都ok，编译器打开最舒服）</p>
+<p>中找到post_asset_folder: false，将false改为true</p>
+<p>作用：在建立文件时，<code>Hexo</code>会自动建立一个与文章同名的文件夹，</p>
+<p>这样就可以把与该文章相关的所有资源（图片）都放到那个文件夹里</p>
+<p>方便之后引用</p>
+</li>
+<li><p>在blog文件夹目录打开git命令行输入：</p>
+<p>npm install <a href="https://github.com/7ym0n/hexo-asset-image">https://github.com/7ym0n/hexo-asset-image</a> –save </p>
+<p>安装插件</p>
+</li>
+<li><p>插入图片时把需要的图片放在与文章同名的文件夹中并改一个好记的名字</p>
+<p>插入时在你的文章中输入</p>
+<p>“一些说明” 用来描述图片，可以不要，</p>
+<p>这样你就可以在网页看到你的图片了</p>
+</li>
+</ol>
+<h3 id="n-未完待续…"><a href="#n-未完待续…" class="headerlink" title="n. 未完待续…."></a>n. 未完待续….</h3>]]></content>
       <tags>
-        <tag>First trying!</tag>
+        <tag>个人博客</tag>
       </tags>
   </entry>
   <entry>
