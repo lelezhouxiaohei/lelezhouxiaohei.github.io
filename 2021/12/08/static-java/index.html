@@ -21,30 +21,31 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.8.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":true,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
-<meta name="description" content="写自己的博客文章摘要：1. 创建一篇博客文章2. 写一篇markdown文档3. 存档4. 可能遇到的问题（要看哦！！）如果遇到问题了，可以滑到文章最下面哦 如果没有解决，百度是个不错的选择呢 ^ v ^ !">
+<meta name="description" content="关于static（ Java ）摘要1. static修饰成员变量、方法及内存储存原理 2. 工具类 3. 代码块 4. 单例模式">
 <meta property="og:type" content="article">
-<meta property="og:title" content="写自己的博客">
-<meta property="og:url" content="http://example.com/2021/12/05/%E5%86%99%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/index.html">
+<meta property="og:title" content="static (java)">
+<meta property="og:url" content="http://example.com/2021/12/08/static-java/index.html">
 <meta property="og:site_name" content="Zhouxiaohei&#39;s BBBlog">
-<meta property="og:description" content="写自己的博客文章摘要：1. 创建一篇博客文章2. 写一篇markdown文档3. 存档4. 可能遇到的问题（要看哦！！）如果遇到问题了，可以滑到文章最下面哦 如果没有解决，百度是个不错的选择呢 ^ v ^ !">
+<meta property="og:description" content="关于static（ Java ）摘要1. static修饰成员变量、方法及内存储存原理 2. 工具类 3. 代码块 4. 单例模式">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="http://example.com/2021/12/05/%E5%86%99%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/md.png">
-<meta property="article:published_time" content="2021-12-05T08:08:54.000Z">
-<meta property="article:modified_time" content="2021-12-05T09:02:33.293Z">
+<meta property="og:image" content="http://example.com/2021/12/08/static-java/%E9%9D%99%E6%80%81%E5%8F%98%E9%87%8F%E5%86%85%E5%AD%98%E5%8E%9F%E7%90%86.png">
+<meta property="og:image" content="http://example.com/2021/12/08/static-java/%E9%9D%99%E6%80%81%E6%96%B9%E6%B3%95%E5%86%85%E5%AD%98%E5%8E%9F%E7%90%86.png">
+<meta property="article:published_time" content="2021-12-08T11:02:45.000Z">
+<meta property="article:modified_time" content="2021-12-08T12:13:27.497Z">
 <meta property="article:author" content="Carson Zhou">
-<meta property="article:tag" content="个人博客">
+<meta property="article:tag" content="JavaSE">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://example.com/2021/12/05/%E5%86%99%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/md.png">
+<meta name="twitter:image" content="http://example.com/2021/12/08/static-java/%E9%9D%99%E6%80%81%E5%8F%98%E9%87%8F%E5%86%85%E5%AD%98%E5%8E%9F%E7%90%86.png">
 
 
-<link rel="canonical" href="http://example.com/2021/12/05/%E5%86%99%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/">
+<link rel="canonical" href="http://example.com/2021/12/08/static-java/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://example.com/2021/12/05/%E5%86%99%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/","path":"2021/12/05/写自己的博客/","title":"写自己的博客"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://example.com/2021/12/08/static-java/","path":"2021/12/08/static-java/","title":"static (java)"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>写自己的博客 | Zhouxiaohei's BBBlog</title>
+<title>static (java) | Zhouxiaohei's BBBlog</title>
   
 
 
@@ -152,7 +153,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%86%99%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0"><span class="nav-number">1.</span> <span class="nav-text">写自己的博客文章</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%91%98%E8%A6%81%EF%BC%9A"><span class="nav-number">1.1.</span> <span class="nav-text">摘要：</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-%E5%88%9B%E5%BB%BA%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0"><span class="nav-number">1.1.1.</span> <span class="nav-text">1. 创建一篇博客文章</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-%E5%86%99%E4%B8%80%E7%AF%87markdown%E6%96%87%E6%A1%A3"><span class="nav-number">1.1.2.</span> <span class="nav-text">2. 写一篇markdown文档</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-%E5%AD%98%E6%A1%A3"><span class="nav-number">1.1.3.</span> <span class="nav-text">3. 存档</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-%E5%8F%AF%E8%83%BD%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98%EF%BC%88%E8%A6%81%E7%9C%8B%E5%93%A6%EF%BC%81%EF%BC%81%EF%BC%89"><span class="nav-number">1.1.4.</span> <span class="nav-text">4. 可能遇到的问题（要看哦！！）</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#1-%E5%88%9B%E5%BB%BA%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0-1"><span class="nav-number">1.2.</span> <span class="nav-text">1. 创建一篇博客文章</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-%E5%86%99%E4%B8%80%E7%AF%87Markdown%E6%96%87%E7%AB%A0"><span class="nav-number">1.3.</span> <span class="nav-text">2. 写一篇Markdown文章</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-%E5%AD%98%E6%A1%A3-1"><span class="nav-number">1.4.</span> <span class="nav-text">3. 存档</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-%E5%8F%AF%E8%83%BD%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98"><span class="nav-number">1.5.</span> <span class="nav-text">4. 可能遇到的问题</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-%E5%9B%BE%E5%83%8F%E6%98%BE%E7%A4%BA%E9%97%AE%E9%A2%98"><span class="nav-number">1.5.1.</span> <span class="nav-text">1. 图像显示问题</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#n-%E6%9C%AA%E5%AE%8C%E5%BE%85%E7%BB%AD%E2%80%A6"><span class="nav-number">1.5.2.</span> <span class="nav-text">n. 未完待续….</span></a></li></ol></li></ol></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%85%B3%E4%BA%8Estatic%EF%BC%88-Java-%EF%BC%89"><span class="nav-number">1.</span> <span class="nav-text">关于static（ Java ）</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%91%98%E8%A6%81"><span class="nav-number">1.1.</span> <span class="nav-text">摘要</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#static%E4%BF%AE%E9%A5%B0%E6%88%90%E5%91%98%E5%8F%98%E9%87%8F%E3%80%81%E6%96%B9%E6%B3%95%E5%8F%8A%E5%86%85%E5%AD%98%E5%82%A8%E5%AD%98%E5%8E%9F%E7%90%86"><span class="nav-number">1.1.0.1.</span> <span class="nav-text">static修饰成员变量、方法及内存储存原理</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#1-static%E4%BF%AE%E9%A5%B0%E6%88%90%E5%91%98%E5%8F%98%E9%87%8F%E3%80%81%E6%96%B9%E6%B3%95"><span class="nav-number">1.1.0.1.1.</span> <span class="nav-text">1. static修饰成员变量、方法</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#2-%E5%86%85%E5%AD%98%E5%82%A8%E5%AD%98%E5%8E%9F%E7%90%86"><span class="nav-number">1.1.0.1.2.</span> <span class="nav-text">2. 内存储存原理</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%B7%A5%E5%85%B7%E7%B1%BB"><span class="nav-number">1.1.0.2.</span> <span class="nav-text">工具类</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#1-%E6%9E%84%E9%80%A0%E5%92%8C%E4%BC%98%E7%82%B9"><span class="nav-number">1.1.0.2.1.</span> <span class="nav-text">1. 构造和优点</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#2-%E5%B7%A5%E5%85%B7%E7%B1%BB%E7%9A%84%E8%A6%81%E6%B1%82"><span class="nav-number">1.1.0.2.2.</span> <span class="nav-text">2. 工具类的要求</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%BB%A3%E7%A0%81%E5%9D%97"><span class="nav-number">1.1.0.3.</span> <span class="nav-text">代码块</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#1-%E9%9D%99%E6%80%81%E4%BB%A3%E7%A0%81%E5%9D%97%EF%BC%9A"><span class="nav-number">1.1.0.3.1.</span> <span class="nav-text">1. 静态代码块：</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#2-%E6%9E%84%E9%80%A0%E4%BB%A3%E7%A0%81%E5%9D%97%EF%BC%9A"><span class="nav-number">1.1.0.3.2.</span> <span class="nav-text">2. 构造代码块：</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%8D%95%E4%BE%8B%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F"><span class="nav-number">1.1.0.4.</span> <span class="nav-text">单例设计模式</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#1-%E9%A5%BF%E6%B1%89%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F"><span class="nav-number">1.1.0.4.1.</span> <span class="nav-text">1. 饿汉单例模式</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#2-%E6%87%92%E6%B1%89%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F"><span class="nav-number">1.1.0.4.2.</span> <span class="nav-text">2. 懒汉单例模式</span></a></li></ol></li></ol></li></ol></li></ol></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -226,7 +227,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/12/05/%E5%86%99%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/12/08/static-java/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/lele.jpg">
@@ -239,7 +240,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          写自己的博客
+          static (java)
         </h1>
 
         <div class="post-meta-container">
@@ -251,7 +252,7 @@
       <span class="post-meta-item-text">发表于</span>
       
 
-      <time title="创建时间：2021-12-05 16:08:54 / 修改时间：17:02:33" itemprop="dateCreated datePublished" datetime="2021-12-05T16:08:54+08:00">2021-12-05</time>
+      <time title="创建时间：2021-12-08 19:02:45 / 修改时间：20:13:27" itemprop="dateCreated datePublished" datetime="2021-12-08T19:02:45+08:00">2021-12-08</time>
     </span>
 
   
@@ -271,76 +272,59 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <h1 id="写自己的博客文章"><a href="#写自己的博客文章" class="headerlink" title="写自己的博客文章"></a>写自己的博客文章</h1><h2 id="摘要："><a href="#摘要：" class="headerlink" title="摘要："></a>摘要：</h2><h3 id="1-创建一篇博客文章"><a href="#1-创建一篇博客文章" class="headerlink" title="1. 创建一篇博客文章"></a>1. 创建一篇博客文章</h3><h3 id="2-写一篇markdown文档"><a href="#2-写一篇markdown文档" class="headerlink" title="2. 写一篇markdown文档"></a>2. 写一篇markdown文档</h3><h3 id="3-存档"><a href="#3-存档" class="headerlink" title="3. 存档"></a>3. 存档</h3><h3 id="4-可能遇到的问题（要看哦！！）"><a href="#4-可能遇到的问题（要看哦！！）" class="headerlink" title="4. 可能遇到的问题（要看哦！！）"></a>4. 可能遇到的问题（要看哦！！）</h3><p><strong>如果遇到问题了，可以滑到文章最下面哦</strong></p>
-<p><strong>如果没有解决，百度是个不错的选择呢 ^ v ^ !</strong></p>
+        <h1 id="关于static（-Java-）"><a href="#关于static（-Java-）" class="headerlink" title="关于static（ Java ）"></a>关于static（ Java ）</h1><h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p><strong>1. static修饰成员变量、方法及内存储存原理</strong></p>
+<p><strong>2. 工具类</strong></p>
+<p><strong>3. 代码块</strong></p>
+<p><strong>4. 单例模式</strong></p>
 <span id="more"></span>
 
-<h2 id="1-创建一篇博客文章-1"><a href="#1-创建一篇博客文章-1" class="headerlink" title="1. 创建一篇博客文章"></a>1. 创建一篇博客文章</h2><p>​        利用hexo写博客的时候，首先要创建一篇博客，提供写文章的位置，没错你不能直接在你的hexo里面写（除非安装了一些第三方插件）</p>
-<p>​        在你的blog文件夹中打开你的git命令行，输入hexo new post “引号里写你的文章标题”</p>
-<p>这样在你的blog/source/_posts中就能看到一个写有你文章标题的md（即markdown）文件</p>
-<p>git与GitHub都只支持md文件不支持txt文件等</p>
-<img src="/2021/12/05/%E5%86%99%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/md.png" class>
+<h4 id="static修饰成员变量、方法及内存储存原理"><a href="#static修饰成员变量、方法及内存储存原理" class="headerlink" title="static修饰成员变量、方法及内存储存原理"></a>static修饰成员变量、方法及内存储存原理</h4><h5 id="1-static修饰成员变量、方法"><a href="#1-static修饰成员变量、方法" class="headerlink" title="1. static修饰成员变量、方法"></a>1. static修饰成员变量、方法</h5><p>a. （无static）静态成员变量</p>
+<p>特点：属于<strong>类</strong>，只<strong>加载一次</strong>，可以<strong>被共享</strong>访问</p>
+<p>应用：类名.静态成员（推荐）</p>
+<p>​            对象.静态成员（不推荐）</p>
+<figure class="highlight ps"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">静态方法中不可出现this关键字（共享特性）</span><br></pre></td></tr></table></figure>
+
+<p>b. （无static）实例成员变量</p>
+<p>特点：属于<strong>对象</strong></p>
+<p>应用：对象.实例成员</p>
+<h5 id="2-内存储存原理"><a href="#2-内存储存原理" class="headerlink" title="2. 内存储存原理"></a>2. 内存储存原理</h5><img src="/2021/12/08/static-java/%E9%9D%99%E6%80%81%E5%8F%98%E9%87%8F%E5%86%85%E5%AD%98%E5%8E%9F%E7%90%86.png" class>
+
+<img src="/2021/12/08/static-java/%E9%9D%99%E6%80%81%E6%96%B9%E6%B3%95%E5%86%85%E5%AD%98%E5%8E%9F%E7%90%86.png" class>
+
+<h4 id="工具类"><a href="#工具类" class="headerlink" title="工具类"></a>工具类</h4><h5 id="1-构造和优点"><a href="#1-构造和优点" class="headerlink" title="1. 构造和优点"></a>1. 构造和优点</h5><p>a. 内部为静态方法，每个方法完成一个功能</p>
+<p>b. 一次编写，处处可以，提高代码的重用性</p>
+<h5 id="2-工具类的要求"><a href="#2-工具类的要求" class="headerlink" title="2. 工具类的要求"></a>2. 工具类的要求</h5><p>a. 建议工具类的构造器私有化处理</p>
+<p>b. 不需创建对象</p>
+<h4 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h4><h5 id="1-静态代码块："><a href="#1-静态代码块：" class="headerlink" title="1. 静态代码块："></a>1. 静态代码块：</h5><p>格式：static{}</p>
+<p>特点：随类的加载而加载，自动触发，只执行一次（这不就c++的构造函数吗？！）</p>
+<p>作用：初始化静态数据，使代码专业，优雅</p>
+<h5 id="2-构造代码块："><a href="#2-构造代码块：" class="headerlink" title="2. 构造代码块："></a>2. 构造代码块：</h5><p>格式：{}</p>
+<p>特点：随对象的创建而加载（随构造器执行而执行，且在构造器之前）</p>
+<p>作用：初始化实例数据</p>
+<h4 id="单例设计模式"><a href="#单例设计模式" class="headerlink" title="单例设计模式"></a>单例设计模式</h4><figure class="highlight ps"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">设计模式：</span><br><span class="line">	<span class="number">1</span>. 一套被前人反复使用、多人知晓、经过分类编目的代码设计经验的总结，</span><br><span class="line">	后来之可以直接拿来解决问题</span><br><span class="line">	<span class="number">2</span>. 好的设计模式可以提高代码的重用性</span><br></pre></td></tr></table></figure>
+
+<p>作用：保证系统中，应用该模式的这个类永远只有一个实例，</p>
+<p>​            即一个类永远只能创建一个对象</p>
+<h5 id="1-饿汉单例模式"><a href="#1-饿汉单例模式" class="headerlink" title="1. 饿汉单例模式"></a>1. 饿汉单例模式</h5><p>定义：在用类获取对象的时候，对象已经提前创建</p>
+<p>设计步骤：</p>
+<pre><code>    1. 定义一个类，把构造器私有
+      2. 定义一个静态变量储存一个对象
+</code></pre>
+<h5 id="2-懒汉单例模式"><a href="#2-懒汉单例模式" class="headerlink" title="2. 懒汉单例模式"></a>2. 懒汉单例模式</h5><p>定义：在真正需要该对象的时候，才创建一个对象（延迟加载对象）</p>
+<p>设计步骤：</p>
+<pre><code>      1. 定义一个类，把构造器私有
+      2. 定义一个静态变量储存一个对象
+      3. 提供一个返回单例对象的方法
+</code></pre>
+<figure class="highlight ps"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">PS</span>.最主要的区别为：创造对象的时机不同</span><br></pre></td></tr></table></figure>
 
 
 
-<h2 id="2-写一篇Markdown文章"><a href="#2-写一篇Markdown文章" class="headerlink" title="2. 写一篇Markdown文章"></a>2. 写一篇Markdown文章</h2><ol>
-<li><p>什么是markdown文件？</p>
-<p>markdown是一种轻量级的标记语言，用于在纯文本中添加格式化元素</p>
-<p><strong>就是，用markdown你可以利用一些简单的语法来使你的文章有序美观</strong></p>
-</li>
-<li><p>常用的markdown编译器</p>
-<p>参考文章：<a target="_blank" rel="noopener" href="https://blog.csdn.net/davidhzq/article/details/100815332">主流markdown编译器</a></p>
-<p>我个人正在用的是Typora，干净简介，极简风格真的很nice，而且支持三大系统</p>
-<p>但是听说最新版本的要收费了，还不便宜，所以推荐下载旧版的，别去更新</p>
-<p>（另外，Typora槽点好像很多，谨慎选择）</p>
-</li>
-<li><p>markdown语法</p>
-<p>markdown的基础语法很简单，10分钟不到就能基本使用</p>
-<p>参考文章：<a target="_blank" rel="noopener" href="https://blog.csdn.net/smilehappiness/article/details/105067651?ops_request_misc=&request_id=&biz_id=102&utm_term=markdown%E8%AF%AD%E6%B3%95&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-3-105067651.pc_search_all_es&spm=1018.2226.3001.4187">Markdown基础语法</a>（学这个够用）</p>
-<p>​                   <a target="_blank" rel="noopener" href="https://blog.csdn.net/witnessai1/article/details/52551362?ops_request_misc=%7B%22request_id%22:%22163869330116780269890699%22,%22scm%22:%2220140713.130102334..%22%7D&request_id=163869330116780269890699&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-1-52551362.pc_search_all_es&utm_term=markdown%E8%AF%AD%E6%B3%95&spm=1018.2226.3001.4187">Markdown语法大全 </a>（有闲心可以了解）</p>
-</li>
-<li><p>做完这些后点开你的md文档，开始大放光彩吧！！写完记得保存哦！！</p>
-</li>
-</ol>
-<h2 id="3-存档-1"><a href="#3-存档-1" class="headerlink" title="3. 存档"></a>3. 存档</h2><p>​        每次修改完你的blog文件夹后（不论是新加了文档还是改动了什么代码）都要在blog文件夹目录中打开git命令行进行存档</p>
-<p>​        要用到命令：</p>
-<ol>
-<li><p>hexo g （是 hexo generate的缩写）</p>
-<p>生成网站静态文件，手动部署网站</p>
-<ol start="2">
-<li>hexo d （是hexo deploy的缩写）</li>
-</ol>
-<p>自动生成网站静态文件，并部署到仓库</p>
-<ol start="3">
-<li>hexo cl （是hexo clean的缩写）</li>
-</ol>
-<p>清楚缓存文件db.json和医生称的静态文件public</p>
-<p>网站显示异常的时候（网页白屏等）可以试试它</p>
-<p><strong>每次按顺序使用如上命令即可完成存档</strong></p>
-<p><strong>PS. hexo g和hexo d可以合并成hexo g -d，也很好用哦</strong></p>
-</li>
-</ol>
-<h2 id="4-可能遇到的问题"><a href="#4-可能遇到的问题" class="headerlink" title="4. 可能遇到的问题"></a>4. 可能遇到的问题</h2><h3 id="1-图像显示问题"><a href="#1-图像显示问题" class="headerlink" title="1. 图像显示问题"></a>1. 图像显示问题</h3><p>初次使用hexo可能会遇到插入的图片部署后不能在网页显示的问题，</p>
-<p>以下是可行的解决方案</p>
-<p>（版本： Hexo 3以上）</p>
-<ol>
-<li><p>在blog文件夹目录下的配置文件_config.yml（记事本打开都ok，编译器打开最舒服）</p>
-<p>中找到post_asset_folder: false，将false改为true</p>
-<p>作用：在建立文件时，<code>Hexo</code>会自动建立一个与文章同名的文件夹，</p>
-<p>这样就可以把与该文章相关的所有资源（图片）都放到那个文件夹里</p>
-<p>方便之后引用</p>
-</li>
-<li><p>在blog文件夹目录打开git命令行输入：</p>
-<p>npm install <a target="_blank" rel="noopener" href="https://github.com/7ym0n/hexo-asset-image">https://github.com/7ym0n/hexo-asset-image</a> –save </p>
-<p>安装插件</p>
-</li>
-<li><p>插入图片时把需要的图片放在与文章同名的文件夹中并改一个好记的名字</p>
-<p>插入时在你的文章中输入</p>
-<p>“一些说明” 用来描述图片，可以不要，</p>
-<p>这样你就可以在网页看到你的图片了</p>
-</li>
-</ol>
-<h3 id="n-未完待续…"><a href="#n-未完待续…" class="headerlink" title="n. 未完待续…."></a>n. 未完待续….</h3>
+
+
+
+
+
     </div>
 
     
@@ -349,21 +333,18 @@
 
     <footer class="post-footer">
           <div class="post-tags">
-              <a href="/tags/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" rel="tag"><i class="fa fa-tag"></i> 个人博客</a>
+              <a href="/tags/JavaSE/" rel="tag"><i class="fa fa-tag"></i> JavaSE</a>
           </div>
 
         
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/2021/12/04/Dev-sidercar/" rel="prev" title="Dev-sidercar">
-                  <i class="fa fa-chevron-left"></i> Dev-sidercar
+                <a href="/2021/12/05/%E5%86%99%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/" rel="prev" title="写自己的博客">
+                  <i class="fa fa-chevron-left"></i> 写自己的博客
                 </a>
             </div>
             <div class="post-nav-item">
-                <a href="/2021/12/08/static-java/" rel="next" title="static (java)">
-                  static (java) <i class="fa fa-chevron-right"></i>
-                </a>
             </div>
           </div>
     </footer>

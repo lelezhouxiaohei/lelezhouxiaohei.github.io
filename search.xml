@@ -40,6 +40,66 @@
       </tags>
   </entry>
   <entry>
+    <title>static (java)</title>
+    <url>/2021/12/08/static-java/</url>
+    <content><![CDATA[<h1 id="关于static（-Java-）"><a href="#关于static（-Java-）" class="headerlink" title="关于static（ Java ）"></a>关于static（ Java ）</h1><h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p><strong>1. static修饰成员变量、方法及内存储存原理</strong></p>
+<p><strong>2. 工具类</strong></p>
+<p><strong>3. 代码块</strong></p>
+<p><strong>4. 单例模式</strong></p>
+<span id="more"></span>
+
+<h4 id="static修饰成员变量、方法及内存储存原理"><a href="#static修饰成员变量、方法及内存储存原理" class="headerlink" title="static修饰成员变量、方法及内存储存原理"></a>static修饰成员变量、方法及内存储存原理</h4><h5 id="1-static修饰成员变量、方法"><a href="#1-static修饰成员变量、方法" class="headerlink" title="1. static修饰成员变量、方法"></a>1. static修饰成员变量、方法</h5><p>a. （无static）静态成员变量</p>
+<p>特点：属于<strong>类</strong>，只<strong>加载一次</strong>，可以<strong>被共享</strong>访问</p>
+<p>应用：类名.静态成员（推荐）</p>
+<p>​            对象.静态成员（不推荐）</p>
+<figure class="highlight ps"><table><tr><td class="code"><pre><span class="line">静态方法中不可出现this关键字（共享特性）</span><br></pre></td></tr></table></figure>
+
+<p>b. （无static）实例成员变量</p>
+<p>特点：属于<strong>对象</strong></p>
+<p>应用：对象.实例成员</p>
+<h5 id="2-内存储存原理"><a href="#2-内存储存原理" class="headerlink" title="2. 内存储存原理"></a>2. 内存储存原理</h5><img src="/2021/12/08/static-java/%E9%9D%99%E6%80%81%E5%8F%98%E9%87%8F%E5%86%85%E5%AD%98%E5%8E%9F%E7%90%86.png" class>
+
+<img src="/2021/12/08/static-java/%E9%9D%99%E6%80%81%E6%96%B9%E6%B3%95%E5%86%85%E5%AD%98%E5%8E%9F%E7%90%86.png" class>
+
+<h4 id="工具类"><a href="#工具类" class="headerlink" title="工具类"></a>工具类</h4><h5 id="1-构造和优点"><a href="#1-构造和优点" class="headerlink" title="1. 构造和优点"></a>1. 构造和优点</h5><p>a. 内部为静态方法，每个方法完成一个功能</p>
+<p>b. 一次编写，处处可以，提高代码的重用性</p>
+<h5 id="2-工具类的要求"><a href="#2-工具类的要求" class="headerlink" title="2. 工具类的要求"></a>2. 工具类的要求</h5><p>a. 建议工具类的构造器私有化处理</p>
+<p>b. 不需创建对象</p>
+<h4 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h4><h5 id="1-静态代码块："><a href="#1-静态代码块：" class="headerlink" title="1. 静态代码块："></a>1. 静态代码块：</h5><p>格式：static{}</p>
+<p>特点：随类的加载而加载，自动触发，只执行一次（这不就c++的构造函数吗？！）</p>
+<p>作用：初始化静态数据，使代码专业，优雅</p>
+<h5 id="2-构造代码块："><a href="#2-构造代码块：" class="headerlink" title="2. 构造代码块："></a>2. 构造代码块：</h5><p>格式：{}</p>
+<p>特点：随对象的创建而加载（随构造器执行而执行，且在构造器之前）</p>
+<p>作用：初始化实例数据</p>
+<h4 id="单例设计模式"><a href="#单例设计模式" class="headerlink" title="单例设计模式"></a>单例设计模式</h4><figure class="highlight ps"><table><tr><td class="code"><pre><span class="line">设计模式：</span><br><span class="line">	<span class="number">1</span>. 一套被前人反复使用、多人知晓、经过分类编目的代码设计经验的总结，</span><br><span class="line">	后来之可以直接拿来解决问题</span><br><span class="line">	<span class="number">2</span>. 好的设计模式可以提高代码的重用性</span><br></pre></td></tr></table></figure>
+
+<p>作用：保证系统中，应用该模式的这个类永远只有一个实例，</p>
+<p>​            即一个类永远只能创建一个对象</p>
+<h5 id="1-饿汉单例模式"><a href="#1-饿汉单例模式" class="headerlink" title="1. 饿汉单例模式"></a>1. 饿汉单例模式</h5><p>定义：在用类获取对象的时候，对象已经提前创建</p>
+<p>设计步骤：</p>
+<pre><code>    1. 定义一个类，把构造器私有
+      2. 定义一个静态变量储存一个对象
+</code></pre>
+<h5 id="2-懒汉单例模式"><a href="#2-懒汉单例模式" class="headerlink" title="2. 懒汉单例模式"></a>2. 懒汉单例模式</h5><p>定义：在真正需要该对象的时候，才创建一个对象（延迟加载对象）</p>
+<p>设计步骤：</p>
+<pre><code>      1. 定义一个类，把构造器私有
+      2. 定义一个静态变量储存一个对象
+      3. 提供一个返回单例对象的方法
+</code></pre>
+<figure class="highlight ps"><table><tr><td class="code"><pre><span class="line"><span class="built_in">PS</span>.最主要的区别为：创造对象的时机不同</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+
+
+]]></content>
+      <tags>
+        <tag>JavaSE</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>写自己的博客</title>
     <url>/2021/12/05/%E5%86%99%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/</url>
     <content><![CDATA[<h1 id="写自己的博客文章"><a href="#写自己的博客文章" class="headerlink" title="写自己的博客文章"></a>写自己的博客文章</h1><h2 id="摘要："><a href="#摘要：" class="headerlink" title="摘要："></a>摘要：</h2><h3 id="1-创建一篇博客文章"><a href="#1-创建一篇博客文章" class="headerlink" title="1. 创建一篇博客文章"></a>1. 创建一篇博客文章</h3><h3 id="2-写一篇markdown文档"><a href="#2-写一篇markdown文档" class="headerlink" title="2. 写一篇markdown文档"></a>2. 写一篇markdown文档</h3><h3 id="3-存档"><a href="#3-存档" class="headerlink" title="3. 存档"></a>3. 存档</h3><h3 id="4-可能遇到的问题（要看哦！！）"><a href="#4-可能遇到的问题（要看哦！！）" class="headerlink" title="4. 可能遇到的问题（要看哦！！）"></a>4. 可能遇到的问题（要看哦！！）</h3><p><strong>如果遇到问题了，可以滑到文章最下面哦</strong></p>
