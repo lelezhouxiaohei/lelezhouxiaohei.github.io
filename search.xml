@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>My first blog</title>
+    <url>/2021/12/03/2021-12-03-My-first-blog/</url>
+    <content><![CDATA[<h2 id="摘要："><a href="#摘要：" class="headerlink" title="摘要："></a>摘要：</h2><p>​    这是我的第一篇博客，创建博客想要培养自己的计算机兴趣，想记录一些学习经历和学习心得，以及一些职业规划。</p>
+<h2 id="关于搭建博客："><a href="#关于搭建博客：" class="headerlink" title="关于搭建博客："></a>关于搭建博客：</h2><p>​    我利用了GitHub和hexo，作为一个刚开始培养计算机思维的大学生，想搭建一个博客真的还是挺难受的，用云服务器太贵了，用GitHub太麻烦了，但是，兴趣是最好的老师，也感谢b站，一步一步走搞了几个小时（走了一些弯路）终于完成了。之后还有美化博客的问题，我尽量学习！！</p>
+<p>​    以下是我成功搭建的参考视频：</p>
+<p>​    <a href="https://www.bilibili.com/video/BV1mU4y1j72n?from=search&seid=7410781831365389063&spm_id_from=333.337.0.0">GitHub与hexo个人博客搭建</a></p>
+<span id="more"></span>
+
+<h2 id="一些展望："><a href="#一些展望：" class="headerlink" title="一些展望："></a>一些展望：</h2><p>​    希望在大学能够多学习技术，多参加竞赛和实习，本科毕业后去大厂镀镀金，之后回四川“养老”，有机会的话程序员退休后考个公务员之类的。</p>
+<p>​    希望之后大学生活遇到挫折，看到这个博客能够感到激励！！</p>
+]]></content>
+      <tags>
+        <tag>First trying!</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Dev-sidercar</title>
     <url>/2021/12/04/Dev-sidercar/</url>
     <content><![CDATA[<h1 id="加速访问GitHub的插件——dev-sidercar"><a href="#加速访问GitHub的插件——dev-sidercar" class="headerlink" title="加速访问GitHub的插件——dev-sidercar"></a>加速访问GitHub的插件——dev-sidercar</h1><ol>
@@ -24,79 +40,40 @@
       </tags>
   </entry>
   <entry>
-    <title>My first blog</title>
-    <url>/2021/12/03/2021-12-03-My-first-blog/</url>
-    <content><![CDATA[<h2 id="摘要："><a href="#摘要：" class="headerlink" title="摘要："></a>摘要：</h2><p>​    这是我的第一篇博客，创建博客想要培养自己的计算机兴趣，想记录一些学习经历和学习心得，以及一些职业规划。</p>
-<h2 id="关于搭建博客："><a href="#关于搭建博客：" class="headerlink" title="关于搭建博客："></a>关于搭建博客：</h2><p>​    我利用了GitHub和hexo，作为一个刚开始培养计算机思维的大学生，想搭建一个博客真的还是挺难受的，用云服务器太贵了，用GitHub太麻烦了，但是，兴趣是最好的老师，也感谢b站，一步一步走搞了几个小时（走了一些弯路）终于完成了。之后还有美化博客的问题，我尽量学习！！</p>
-<p>​    以下是我成功搭建的参考视频：</p>
-<p>​    <a href="https://www.bilibili.com/video/BV1mU4y1j72n?from=search&seid=7410781831365389063&spm_id_from=333.337.0.0">GitHub与hexo个人博客搭建</a></p>
+    <title>Java学习路线</title>
+    <url>/2021/12/09/Java%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/</url>
+    <content><![CDATA[<h1 id="大一新生对-Java-学习的一些想法"><a href="#大一新生对-Java-学习的一些想法" class="headerlink" title="大一新生对 Java 学习的一些想法"></a>大一新生对 Java 学习的一些想法</h1><h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><ol>
+<li>实用的工具</li>
+<li>学习路线</li>
+<li>学习习惯</li>
+</ol>
 <span id="more"></span>
 
-<h2 id="一些展望："><a href="#一些展望：" class="headerlink" title="一些展望："></a>一些展望：</h2><p>​    希望在大学能够多学习技术，多参加竞赛和实习，本科毕业后去大厂镀镀金，之后回四川“养老”，有机会的话程序员退休后考个公务员之类的。</p>
-<p>​    希望之后大学生活遇到挫折，看到这个博客能够感到激励！！</p>
-]]></content>
+
+
+<h2 id="实用的工具"><a href="#实用的工具" class="headerlink" title="实用的工具"></a>实用的工具</h2><ol>
+<li><p>研发工具：</p>
+<p>​    1. 编译器：IDEA (业内公认最好的 Java 编译器)</p>
+<p>​                        官网下载完整版可以体验30天，</p>
+<p>​                        使用破解软件可以永久使用（doge）</p>
+<ol start="2">
+<li>JDK 17 （最新版 JDK 适合学习使用）</li>
+</ol>
+</li>
+<li><p>笔记软件：</p>
+<p>​    OneNote（功能多）    </p>
+<p>​    Typora （或其他markdown文件编辑器，</p>
+<p>​                    markdown文本做笔记真的很方便）</p>
+<p>​    印象笔记 （没用过，听说不错）</p>
+</li>
+<li><p>脑图软件：</p>
+<p>​    XMind （当前比较热门的脑图软件，vip好贵）</p>
+<p>​    ProcessOn （是个脑图网页，vip也贵）<a href="https://www.processon.com/">ProcessOn</a></p>
+</li>
+</ol>
+<h1 id="学习路线"><a href="#学习路线" class="headerlink" title="学习路线"></a>学习路线</h1><h1 id="明天再更！！！"><a href="#明天再更！！！" class="headerlink" title="明天再更！！！"></a>明天再更！！！</h1>]]></content>
       <tags>
-        <tag>First trying!</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>static (java)</title>
-    <url>/2021/12/08/static-java/</url>
-    <content><![CDATA[<h1 id="关于static（-Java-）"><a href="#关于static（-Java-）" class="headerlink" title="关于static（ Java ）"></a>关于static（ Java ）</h1><h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p><strong>1. static修饰成员变量、方法及内存储存原理</strong></p>
-<p><strong>2. 工具类</strong></p>
-<p><strong>3. 代码块</strong></p>
-<p><strong>4. 单例模式</strong></p>
-<span id="more"></span>
-
-<h4 id="static修饰成员变量、方法及内存储存原理"><a href="#static修饰成员变量、方法及内存储存原理" class="headerlink" title="static修饰成员变量、方法及内存储存原理"></a>static修饰成员变量、方法及内存储存原理</h4><h5 id="1-static修饰成员变量、方法"><a href="#1-static修饰成员变量、方法" class="headerlink" title="1. static修饰成员变量、方法"></a>1. static修饰成员变量、方法</h5><p>a. （无static）静态成员变量</p>
-<p>特点：属于<strong>类</strong>，只<strong>加载一次</strong>，可以<strong>被共享</strong>访问</p>
-<p>应用：类名.静态成员（推荐）</p>
-<p>​            对象.静态成员（不推荐）</p>
-<figure class="highlight ps"><table><tr><td class="code"><pre><span class="line">静态方法中不可出现this关键字（共享特性）</span><br></pre></td></tr></table></figure>
-
-<p>b. （无static）实例成员变量</p>
-<p>特点：属于<strong>对象</strong></p>
-<p>应用：对象.实例成员</p>
-<h5 id="2-内存储存原理"><a href="#2-内存储存原理" class="headerlink" title="2. 内存储存原理"></a>2. 内存储存原理</h5><img src="/2021/12/08/static-java/%E9%9D%99%E6%80%81%E5%8F%98%E9%87%8F%E5%86%85%E5%AD%98%E5%8E%9F%E7%90%86.png" class>
-
-<img src="/2021/12/08/static-java/%E9%9D%99%E6%80%81%E6%96%B9%E6%B3%95%E5%86%85%E5%AD%98%E5%8E%9F%E7%90%86.png" class>
-
-<h4 id="工具类"><a href="#工具类" class="headerlink" title="工具类"></a>工具类</h4><h5 id="1-构造和优点"><a href="#1-构造和优点" class="headerlink" title="1. 构造和优点"></a>1. 构造和优点</h5><p>a. 内部为静态方法，每个方法完成一个功能</p>
-<p>b. 一次编写，处处可以，提高代码的重用性</p>
-<h5 id="2-工具类的要求"><a href="#2-工具类的要求" class="headerlink" title="2. 工具类的要求"></a>2. 工具类的要求</h5><p>a. 建议工具类的构造器私有化处理</p>
-<p>b. 不需创建对象</p>
-<h4 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h4><h5 id="1-静态代码块："><a href="#1-静态代码块：" class="headerlink" title="1. 静态代码块："></a>1. 静态代码块：</h5><p>格式：static{}</p>
-<p>特点：随类的加载而加载，自动触发，只执行一次（这不就c++的构造函数吗？！）</p>
-<p>作用：初始化静态数据，使代码专业，优雅</p>
-<h5 id="2-构造代码块："><a href="#2-构造代码块：" class="headerlink" title="2. 构造代码块："></a>2. 构造代码块：</h5><p>格式：{}</p>
-<p>特点：随对象的创建而加载（随构造器执行而执行，且在构造器之前）</p>
-<p>作用：初始化实例数据</p>
-<h4 id="单例设计模式"><a href="#单例设计模式" class="headerlink" title="单例设计模式"></a>单例设计模式</h4><figure class="highlight ps"><table><tr><td class="code"><pre><span class="line">设计模式：</span><br><span class="line">	<span class="number">1</span>. 一套被前人反复使用、多人知晓、经过分类编目的代码设计经验的总结，</span><br><span class="line">	后来之可以直接拿来解决问题</span><br><span class="line">	<span class="number">2</span>. 好的设计模式可以提高代码的重用性</span><br></pre></td></tr></table></figure>
-
-<p>作用：保证系统中，应用该模式的这个类永远只有一个实例，</p>
-<p>​            即一个类永远只能创建一个对象</p>
-<h5 id="1-饿汉单例模式"><a href="#1-饿汉单例模式" class="headerlink" title="1. 饿汉单例模式"></a>1. 饿汉单例模式</h5><p>定义：在用类获取对象的时候，对象已经提前创建</p>
-<p>设计步骤：</p>
-<pre><code>    1. 定义一个类，把构造器私有
-    2. 定义一个静态变量储存一个对象
-</code></pre>
-<h5 id="2-懒汉单例模式"><a href="#2-懒汉单例模式" class="headerlink" title="2. 懒汉单例模式"></a>2. 懒汉单例模式</h5><p>定义：在真正需要该对象的时候，才创建一个对象（延迟加载对象）</p>
-<p>设计步骤：</p>
-<pre><code>      1. 定义一个类，把构造器私有
-      2. 定义一个静态变量储存一个对象
-      3. 提供一个返回单例对象的方法
-</code></pre>
-<figure class="highlight ps"><table><tr><td class="code"><pre><span class="line"><span class="built_in">PS</span>.区别：</span><br><span class="line"><span class="number">1</span>. 创造对象的时机不同</span><br><span class="line"><span class="number">2</span>. 饿汉模式不存在线程安全问题，懒汉模式存在</span><br><span class="line"><span class="number">3</span>. 饿汉模式存在浪费资源的可能</span><br></pre></td></tr></table></figure>
-
-
-
-
-
-
-
-]]></content>
-      <tags>
-        <tag>JavaSE</tag>
+        <tag>Java</tag>
       </tags>
   </entry>
   <entry>
@@ -174,6 +151,66 @@
 <h3 id="n-未完待续…"><a href="#n-未完待续…" class="headerlink" title="n. 未完待续…."></a>n. 未完待续….</h3>]]></content>
       <tags>
         <tag>个人博客</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>static (java)</title>
+    <url>/2021/12/08/static-java/</url>
+    <content><![CDATA[<h1 id="关于static（-Java-）"><a href="#关于static（-Java-）" class="headerlink" title="关于static（ Java ）"></a>关于static（ Java ）</h1><h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p><strong>1. static修饰成员变量、方法及内存储存原理</strong></p>
+<p><strong>2. 工具类</strong></p>
+<p><strong>3. 代码块</strong></p>
+<p><strong>4. 单例模式</strong></p>
+<span id="more"></span>
+
+<h4 id="static修饰成员变量、方法及内存储存原理"><a href="#static修饰成员变量、方法及内存储存原理" class="headerlink" title="static修饰成员变量、方法及内存储存原理"></a>static修饰成员变量、方法及内存储存原理</h4><h5 id="1-static修饰成员变量、方法"><a href="#1-static修饰成员变量、方法" class="headerlink" title="1. static修饰成员变量、方法"></a>1. static修饰成员变量、方法</h5><p>a. （无static）静态成员变量</p>
+<p>特点：属于<strong>类</strong>，只<strong>加载一次</strong>，可以<strong>被共享</strong>访问</p>
+<p>应用：类名.静态成员（推荐）</p>
+<p>​            对象.静态成员（不推荐）</p>
+<figure class="highlight ps"><table><tr><td class="code"><pre><span class="line">静态方法中不可出现this关键字（共享特性）</span><br></pre></td></tr></table></figure>
+
+<p>b. （无static）实例成员变量</p>
+<p>特点：属于<strong>对象</strong></p>
+<p>应用：对象.实例成员</p>
+<h5 id="2-内存储存原理"><a href="#2-内存储存原理" class="headerlink" title="2. 内存储存原理"></a>2. 内存储存原理</h5><img src="/2021/12/08/static-java/%E9%9D%99%E6%80%81%E5%8F%98%E9%87%8F%E5%86%85%E5%AD%98%E5%8E%9F%E7%90%86.png" class>
+
+<img src="/2021/12/08/static-java/%E9%9D%99%E6%80%81%E6%96%B9%E6%B3%95%E5%86%85%E5%AD%98%E5%8E%9F%E7%90%86.png" class>
+
+<h4 id="工具类"><a href="#工具类" class="headerlink" title="工具类"></a>工具类</h4><h5 id="1-构造和优点"><a href="#1-构造和优点" class="headerlink" title="1. 构造和优点"></a>1. 构造和优点</h5><p>a. 内部为静态方法，每个方法完成一个功能</p>
+<p>b. 一次编写，处处可以，提高代码的重用性</p>
+<h5 id="2-工具类的要求"><a href="#2-工具类的要求" class="headerlink" title="2. 工具类的要求"></a>2. 工具类的要求</h5><p>a. 建议工具类的构造器私有化处理</p>
+<p>b. 不需创建对象</p>
+<h4 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h4><h5 id="1-静态代码块："><a href="#1-静态代码块：" class="headerlink" title="1. 静态代码块："></a>1. 静态代码块：</h5><p>格式：static{}</p>
+<p>特点：随类的加载而加载，自动触发，只执行一次（这不就c++的构造函数吗？！）</p>
+<p>作用：初始化静态数据，使代码专业，优雅</p>
+<h5 id="2-构造代码块："><a href="#2-构造代码块：" class="headerlink" title="2. 构造代码块："></a>2. 构造代码块：</h5><p>格式：{}</p>
+<p>特点：随对象的创建而加载（随构造器执行而执行，且在构造器之前）</p>
+<p>作用：初始化实例数据</p>
+<h4 id="单例设计模式"><a href="#单例设计模式" class="headerlink" title="单例设计模式"></a>单例设计模式</h4><figure class="highlight ps"><table><tr><td class="code"><pre><span class="line">设计模式：</span><br><span class="line">	<span class="number">1</span>. 一套被前人反复使用、多人知晓、经过分类编目的代码设计经验的总结，</span><br><span class="line">	后来之可以直接拿来解决问题</span><br><span class="line">	<span class="number">2</span>. 好的设计模式可以提高代码的重用性</span><br></pre></td></tr></table></figure>
+
+<p>作用：保证系统中，应用该模式的这个类永远只有一个实例，</p>
+<p>​            即一个类永远只能创建一个对象</p>
+<h5 id="1-饿汉单例模式"><a href="#1-饿汉单例模式" class="headerlink" title="1. 饿汉单例模式"></a>1. 饿汉单例模式</h5><p>定义：在用类获取对象的时候，对象已经提前创建</p>
+<p>设计步骤：</p>
+<pre><code>    1. 定义一个类，把构造器私有
+    2. 定义一个静态变量储存一个对象
+</code></pre>
+<h5 id="2-懒汉单例模式"><a href="#2-懒汉单例模式" class="headerlink" title="2. 懒汉单例模式"></a>2. 懒汉单例模式</h5><p>定义：在真正需要该对象的时候，才创建一个对象（延迟加载对象）</p>
+<p>设计步骤：</p>
+<pre><code>      1. 定义一个类，把构造器私有
+      2. 定义一个静态变量储存一个对象
+      3. 提供一个返回单例对象的方法
+</code></pre>
+<figure class="highlight ps"><table><tr><td class="code"><pre><span class="line"><span class="built_in">PS</span>.区别：</span><br><span class="line"><span class="number">1</span>. 创造对象的时机不同</span><br><span class="line"><span class="number">2</span>. 饿汉模式不存在线程安全问题，懒汉模式存在</span><br><span class="line"><span class="number">3</span>. 饿汉模式存在浪费资源的可能</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+
+
+]]></content>
+      <tags>
+        <tag>JavaSE</tag>
       </tags>
   </entry>
   <entry>
